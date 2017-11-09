@@ -13,6 +13,7 @@ namespace VidzyCodeFirst
         public string Name { get; set; }
         public DateTime? ReleaseDate { get; set; }
         public Genre Genre { get; set; }
+        public Classification Classification { get; set; }
     }
 
     public class Genre
@@ -25,6 +26,13 @@ namespace VidzyCodeFirst
     {
         public DbSet<Video> Videos { get; set; }
         public DbSet<Genre> Genres { get; set; }
+    }
+
+    public enum Classification
+    {
+        Silver = 1,
+        Gold = 2,
+        Platinum = 3
     }
 
     public class Program

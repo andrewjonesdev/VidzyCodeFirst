@@ -61,6 +61,10 @@
     <Compile Include="Migrations\201711090032240_AlteredGenresTableAndVideosTableRelationshipFromManyToManyToOneToMany.Designer.cs">
       <DependentUpon>201711090032240_AlteredGenresTableAndVideosTableRelationshipFromManyToManyToOneToMany.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711090043096_AddClassificationPropertyToVideosTable.cs" />
+    <Compile Include="Migrations\201711090043096_AddClassificationPropertyToVideosTable.Designer.cs">
+      <DependentUpon>201711090043096_AddClassificationPropertyToVideosTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +82,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711090032240_AlteredGenresTableAndVideosTableRelationshipFromManyToManyToOneToMany.resx">
       <DependentUpon>201711090032240_AlteredGenresTableAndVideosTableRelationshipFromManyToManyToOneToMany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711090043096_AddClassificationPropertyToVideosTable.resx">
+      <DependentUpon>201711090043096_AddClassificationPropertyToVideosTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
