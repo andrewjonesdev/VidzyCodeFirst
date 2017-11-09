@@ -57,6 +57,10 @@
     <Compile Include="Migrations\201711090019490_PopulateGenresTable.Designer.cs">
       <DependentUpon>201711090019490_PopulateGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711090032240_AlteredGenresTableAndVideosTableRelationshipFromManyToManyToOneToMany.cs" />
+    <Compile Include="Migrations\201711090032240_AlteredGenresTableAndVideosTableRelationshipFromManyToManyToOneToMany.Designer.cs">
+      <DependentUpon>201711090032240_AlteredGenresTableAndVideosTableRelationshipFromManyToManyToOneToMany.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +75,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711090019490_PopulateGenresTable.resx">
       <DependentUpon>201711090019490_PopulateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711090032240_AlteredGenresTableAndVideosTableRelationshipFromManyToManyToOneToMany.resx">
+      <DependentUpon>201711090032240_AlteredGenresTableAndVideosTableRelationshipFromManyToManyToOneToMany.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
