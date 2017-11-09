@@ -13,7 +13,7 @@ namespace VidzyCodeFirst.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201711082220476_PopulateGenresTable"; }
+            get { return "201711090019490_PopulateGenresTable"; }
         }
         
         string IMigrationMetadata.Source

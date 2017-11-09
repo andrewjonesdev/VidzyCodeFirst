@@ -53,9 +53,9 @@
     <Compile Include="Migrations\201711082102030_InitialModel.Designer.cs">
       <DependentUpon>201711082102030_InitialModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201711082220476_PopulateGenresTable.cs" />
-    <Compile Include="Migrations\201711082220476_PopulateGenresTable.Designer.cs">
-      <DependentUpon>201711082220476_PopulateGenresTable.cs</DependentUpon>
+    <Compile Include="Migrations\201711090019490_PopulateGenresTable.cs" />
+    <Compile Include="Migrations\201711090019490_PopulateGenresTable.Designer.cs">
+      <DependentUpon>201711090019490_PopulateGenresTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -69,8 +69,8 @@
     <EmbeddedResource Include="Migrations\201711082102030_InitialModel.resx">
       <DependentUpon>201711082102030_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201711082220476_PopulateGenresTable.resx">
-      <DependentUpon>201711082220476_PopulateGenresTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201711090019490_PopulateGenresTable.resx">
+      <DependentUpon>201711090019490_PopulateGenresTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
