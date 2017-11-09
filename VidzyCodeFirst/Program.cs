@@ -19,7 +19,6 @@ namespace VidzyCodeFirst
     {
         public byte Id { get; set; }
         public string Name { get; set; }
-        public IList<Video> Video { get; set; }
     }
 
     public class VidzyContext : DbContext
