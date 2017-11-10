@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classification.cs" />
+    <Compile Include="EntityConfigurations\GenreConfiguration.cs" />
+    <Compile Include="EntityConfigurations\VideoConfiguration.cs" />
     <Compile Include="Genre.cs" />
     <Compile Include="Migrations\201711082102030_InitialModel.cs" />
     <Compile Include="Migrations\201711082102030_InitialModel.Designer.cs">
@@ -66,6 +68,10 @@
     <Compile Include="Migrations\201711090043096_AddClassificationPropertyToVideosTable.cs" />
     <Compile Include="Migrations\201711090043096_AddClassificationPropertyToVideosTable.Designer.cs">
       <DependentUpon>201711090043096_AddClassificationPropertyToVideosTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711100338373_AddedFluentApiToCleanUpGenreAndVideoTables.cs" />
+    <Compile Include="Migrations\201711100338373_AddedFluentApiToCleanUpGenreAndVideoTables.Designer.cs">
+      <DependentUpon>201711100338373_AddedFluentApiToCleanUpGenreAndVideoTables.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -90,9 +96,10 @@
     <EmbeddedResource Include="Migrations\201711090043096_AddClassificationPropertyToVideosTable.resx">
       <DependentUpon>201711090043096_AddClassificationPropertyToVideosTable.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711100338373_AddedFluentApiToCleanUpGenreAndVideoTables.resx">
+      <DependentUpon>201711100338373_AddedFluentApiToCleanUpGenreAndVideoTables.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EntityConfigurations\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
